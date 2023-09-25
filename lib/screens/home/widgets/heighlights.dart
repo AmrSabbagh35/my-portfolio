@@ -17,9 +17,12 @@ class HighLightsInfo extends StatelessWidget {
           ? Column(
               children: [
                 Padding(
-                  padding: const EdgeInsets.symmetric(horizontal: 10),
-                  child: Row(
+                  padding: const EdgeInsets.symmetric(
+                    horizontal: 30,
+                  ),
+                  child: Column(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                    crossAxisAlignment: CrossAxisAlignment.start,
                     children: const [
                       HeighLight(
                         counter: AnimatedCounter(
@@ -47,31 +50,34 @@ class HighLightsInfo extends StatelessWidget {
                 ),
               ],
             )
-          : Row(
-              mainAxisAlignment: MainAxisAlignment.spaceBetween,
-              children: const [
-                HeighLight(
-                  counter: AnimatedCounter(
-                    value: 15,
-                    text: "+",
+          : Padding(
+              padding: const EdgeInsets.symmetric(horizontal: 20),
+              child: Row(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                children: const [
+                  HeighLight(
+                    counter: AnimatedCounter(
+                      value: 15,
+                      text: "+",
+                    ),
+                    label: "GitHub Projects",
                   ),
-                  label: "GitHub Projects",
-                ),
-                HeighLight(
-                  counter: AnimatedCounter(
-                    value: 7,
-                    text: "+",
+                  HeighLight(
+                    counter: AnimatedCounter(
+                      value: 7,
+                      text: "+",
+                    ),
+                    label: "Delivered Projects",
                   ),
-                  label: "Delivered Projects",
-                ),
-                HeighLight(
-                  counter: AnimatedCounter(
-                    value: 30,
-                    text: "+",
+                  HeighLight(
+                    counter: AnimatedCounter(
+                      value: 30,
+                      text: "+",
+                    ),
+                    label: "Clients",
                   ),
-                  label: "Clients",
-                ),
-              ],
+                ],
+              ),
             ),
     );
   }

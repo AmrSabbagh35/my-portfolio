@@ -94,6 +94,7 @@ class SideMenu extends StatelessWidget {
                           icon: SvgPicture.asset(
                             "assets/icons/medium-icon.svg",
                             color: Colors.white,
+                            height: 20,
                           ),
                         ),
                         const Spacer(),
