@@ -1,11 +1,11 @@
 {
-    "name": "amr_sabbagh_portfolio",
-    "short_name": "amr_sabbagh_portfolio",
+    "name": "my_portfolio",
+    "short_name": "my_portfolio",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
-    "description": "Amr Sabbagh Projects & Skills",
+    "description": "Amr Sabbagh Projects & Skills   ",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [

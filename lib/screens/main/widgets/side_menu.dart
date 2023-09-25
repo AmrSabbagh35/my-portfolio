@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:amr_sabbagh_portfolio/constants/constants.dart';
-import 'package:amr_sabbagh_portfolio/screens/main/widgets/area_info_text.dart';
-import 'package:amr_sabbagh_portfolio/screens/main/widgets/coding.dart';
-import 'package:amr_sabbagh_portfolio/screens/main/widgets/knowledges.dart';
-import 'package:amr_sabbagh_portfolio/screens/main/widgets/my_info.dart';
-import 'package:amr_sabbagh_portfolio/screens/main/widgets/skills.dart';
+import 'package:my_portfolio/constants/constants.dart';
+import 'package:my_portfolio/screens/main/widgets/area_info_text.dart';
+import 'package:my_portfolio/screens/main/widgets/coding.dart';
+import 'package:my_portfolio/screens/main/widgets/knowledges.dart';
+import 'package:my_portfolio/screens/main/widgets/my_info.dart';
+import 'package:my_portfolio/screens/main/widgets/skills.dart';
 import 'dart:html' as html;
 
 class SideMenu extends StatelessWidget {
