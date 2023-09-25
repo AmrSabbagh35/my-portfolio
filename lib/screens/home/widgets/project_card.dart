@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:my_portfolio/constants/constants.dart';
-import 'package:my_portfolio/models/project.dart';
-import 'package:my_portfolio/responsive.dart';
+import 'package:amr_sabbagh_portfolio/constants/constants.dart';
+import 'package:amr_sabbagh_portfolio/models/project.dart';
+import 'package:amr_sabbagh_portfolio/responsive.dart';
 
 class ProjectCard extends StatelessWidget {
   const ProjectCard({
